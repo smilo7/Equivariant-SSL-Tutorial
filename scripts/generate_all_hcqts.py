@@ -342,7 +342,7 @@ class ToLogMagnitude(nn.Module):
 
 
 datamodule = AudioDataModule(
-    audio_files="train_files.csv",
+    audio_files="train_files_full_paths.csv",
     # annot_files="mdb_stem_synth_annot_small.csv",
     # val_audio_files="data/val_audio_files.csv",
     # val_annot_files="data/val_annot_files.csv",
