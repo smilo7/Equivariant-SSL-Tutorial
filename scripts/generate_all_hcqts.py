@@ -363,3 +363,9 @@ datamodule = AudioDataModule(
     filter_unvoiced=False,
     mmap_mode=None
 )
+
+
+if __name__ == "__main__":
+    print(" Starting HCQT precomputation...")
+    datamodule.prepare_data()
+    print(" Done! Files saved to ./cache")
